@@ -1,6 +1,5 @@
 import React from 'react'
-import Btn from '../components/formComponents/Btn'
-import BtnInverse from './formComponents/BtnInverse'
+import Button from './formComponents/Button'
 
 const Pricing = () => {
   return (
@@ -16,7 +15,7 @@ const Pricing = () => {
                 <p className='py-2 border-b mx-8'>One user allowed</p>
                 <p className='py-2 border-b mx-8 mb-10'>Send upto 200 emails</p>
             </div>
-            <Btn value="Get Started" />
+            <Button>Get Started</Button>
         </div>
         <div className='w-full shadow-xl bg-gray-100 rounded-md flex flex-col hover:scale-105 duration-300 border my-8 md:my-[0]'>
             <img className='mt-[-50px] rounded-lg border w-[100px] mx-auto bg-white' src='/people.svg' alt='single' />
@@ -27,7 +26,7 @@ const Pricing = () => {
                 <p className='py-2 border-b mx-8'>Two users allowed</p>
                 <p className='py-2 border-b mx-8 mb-10'>Send upto 5000 emails</p>
             </div>
-            <Btn value="Get Started" />
+            <Button>Get Started</Button>
         </div>
         <div className='w-full shadow-xl rounded-md flex flex-col hover:scale-105 duration-300 border my-8 md:my-2'>
             <img className='mt-[-50px] bg-transparent rounded-lg border w-[100px] mx-auto bg-white' src='/three.svg' alt='single' />
@@ -38,7 +37,7 @@ const Pricing = () => {
                 <p className='py-2 border-b mx-8'>Three users allowed</p>
                 <p className='py-2 border-b mx-8 mb-10'>Send unlimited emails</p>
             </div>
-            <Btn value="Get Started" />
+            <Button>Get Started</Button>
         </div>
       </div>
     </div>

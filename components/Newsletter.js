@@ -1,4 +1,5 @@
-import React from "react";
+
+
 
 const Newsletter = () => {
   return (
@@ -19,6 +20,7 @@ const Newsletter = () => {
             <button className="flex bg-[#00df9a] py-4 px-5 md:py-4 md:px-8 mx-auto rounded-md m-4 w-[200px] text-black my-auto font-semibold ml-2 border border-[#00df9a] hover:bg-transparent hover:border hover:border-[#00df9a] hover:text-[#00df9a] hover:ease-in-out duration-500 text-sm md:text-md">
               Notify me
             </button>
+            {/* <Button>Notify me</Button> */}
           </div>
           <p className="my-2 text-gray-500">We care about your privacy and will not share your information with any third party.</p>
         </div>

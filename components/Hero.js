@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed';
-import Btn from '../components/formComponents/Btn'
+import Button from './formComponents/Button'
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
         <p className='text-gray-500 my-4'>
             These are some of my works from full stack development to backend APi to Front end react / Next.js projects.
         </p>
-        <Btn value="Get Started" /> 
+        <Button>Get started</Button>
 
     </div>
   )

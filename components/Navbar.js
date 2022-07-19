@@ -57,7 +57,7 @@ export default function Navbar() {
       </div>
       <div className={ nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-800 bg-[#011426] ease-in duration-1000" : "hidden" }>
       {/* <h1 className="text-3xl w-full font-bold text-[#00df9a] m-4 mt-7">REACT.</h1>  */}
-      <h1 className="text-3xl w-full font-bold text-[#00df9a] m-4 mt-8">My<span className="text-red-500">.</span> Projects<span className="text-red-500">.</span></h1>
+      <h1 className="text-3xl w-full font-bold text-[#00df9a] m-4 mt-8">NEXT<span className="text-red-500">.-</span> AUTH<span className="text-red-500">.-</span></h1>
         <ul className="uppercase p-4">
           <li className="p-4 border-b border-gray-600">
             <a href="#hero" className="">
